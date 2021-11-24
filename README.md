@@ -22,7 +22,7 @@ https://stackoverflow.com/questions/9689793/cant-execute-jar-file-no-main-manife
 
 Changes to POM file
 1. Spring boot
-`
+```
 +       <parent>
 +               <groupId>org.springframework.boot</groupId>
 +               <artifactId>spring-boot-starter-parent</artifactId>
@@ -38,9 +38,9 @@ Changes to POM file
 +                       </plugin>
 +               </plugins>
 +       </build>
-`
+```
 2. Shade plugin
-`
+```
 +       <build>
 +               <plugins>
 +                       <plugin>
@@ -66,9 +66,9 @@ Changes to POM file
 +                       </plugin>
 +               </plugins>
 +       </build>
-`
+```
 3. Assembly plugin
-`
+```
 +       <build>
 +               <plugins>
 +                       <plugin>
@@ -95,9 +95,9 @@ Changes to POM file
 +                       </plugin>
 +               </plugins>
 +       </build>
-`
+```
 4. Maven jar plugin
-`
+```
 +       <build>
 +               <plugins>
 +                       <plugin>
@@ -117,4 +117,4 @@ Changes to POM file
 +                       </plugin>
 +               </plugins>
 +       </build>
-`
+```
